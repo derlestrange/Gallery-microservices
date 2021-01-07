@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-image/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-gallery/pom.xml" />
       </list>
     </option>
   </component>

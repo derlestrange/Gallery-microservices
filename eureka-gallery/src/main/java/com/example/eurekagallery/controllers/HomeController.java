@@ -25,19 +25,19 @@ public class HomeController {
     private Environment environment;
 
     @RequestMapping("/")
-    public String home(){
+    public String home() {
         return "Hello from Gallery Service running at port: " + environment.getProperty("local.server.port");
     }
 
     @HystrixCommand(fallbackMethod = "fallback")
     @RequestMapping("/{id}")
-    public Gallery getGallery(@PathVariable final int id){
+    public Gallery getGallery(@PathVariable final int id) {
         LOGGER.info("Creating gallery obj");
 
         Gallery gallery = new Gallery();
         gallery.setId(id);
 
-        List<Object> images =  restTemplate.getForObject("http://image-service/images/", List.class);
+        List<Object> images = restTemplate.getForObject("http://image-service/images/", List.class);
         gallery.setImages(images);
 
         return gallery;

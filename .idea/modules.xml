@@ -3,9 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Gallery-microservices.iml" filepath="$PROJECT_DIR$/.idea/Gallery-microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-common/eureka-common.iml" filepath="$PROJECT_DIR$/eureka-common/eureka-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-gallery/eureka-gallery.iml" filepath="$PROJECT_DIR$/eureka-gallery/eureka-gallery.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-image/eureka-image.iml" filepath="$PROJECT_DIR$/eureka-image/eureka-image.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-zuul/eureka-zuul.iml" filepath="$PROJECT_DIR$/eureka-zuul/eureka-zuul.iml" />
     </modules>
   </component>
 </project>

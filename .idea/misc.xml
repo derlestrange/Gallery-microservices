@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/eureka-gallery/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-common/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-auth/pom.xml" />
       </list>
     </option>
   </component>

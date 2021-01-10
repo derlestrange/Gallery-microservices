@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-image" />
         <module name="eureka-common" />
+        <module name="eureka-auth" />
         <module name="eureka-zuul" />
         <module name="eureka-gallery" />
         <module name="eureka-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="eureka-auth" target="11" />
       <module name="eureka-common" target="11" />
       <module name="eureka-gallery" target="11" />
       <module name="eureka-image" target="11" />
@@ -23,6 +25,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-auth" options="-parameters" />
       <module name="eureka-common" options="-parameters" />
       <module name="eureka-gallery" options="-parameters" />
       <module name="eureka-image" options="-parameters" />
